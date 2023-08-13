@@ -1,0 +1,46 @@
+body {
+    display:flex;
+    justify-content: center;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 26px;
+}
+
+main {
+    /* display:flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 40px;
+    
+}
+
+.item {
+    flex-direction: column;
+    margin: 30px;
+    align-items: stretch;
+    
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+}
+
+.field {
+    width: 500px;
+}
+
+button {
+    justify-content: center;
+}
+
